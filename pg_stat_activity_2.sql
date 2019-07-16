@@ -1,6 +1,6 @@
 SELECT * FROM pg_stat_activity
 
-SELECT count(*) FROM pg_stat_activity WHERE datname = 'siapnet'
+SELECT count(*) FROM pg_stat_activity WHERE datname = 'database'
 
 SELECT
   pid,
